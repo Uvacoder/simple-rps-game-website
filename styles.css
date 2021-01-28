@@ -59,3 +59,40 @@ header > h1 {
     right: -30px;
     
 }
+
+.result {
+    font-size: 40px;
+    color: #ca40ed;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.result > p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.choices {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.choice {
+    margin: 0 15px;
+    display: inline-block;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    background: #d8cbc9;
+    cursor: pointer;
+}
+
+#action-message {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
